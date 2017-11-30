@@ -1,7 +1,7 @@
 <?php
 
 if ( ! defined( 'ASSETSPATH' ) ) {
-	define( 'ASSETSPATH', dirname( __FILE__ ,4) . '/assets/' );
+	define( 'ASSETSPATH', dirname(dirname(dirname(dirname( __FILE__ )))) . '/assets/' );
 	require_once( ASSETSPATH . '/includes/load.php' );
 }
 
@@ -21,7 +21,7 @@ $limit = (isset($_POST['limit'])) ? $_POST['limit'] : 6 ;
 			<article class="card card-first">
 			    <img class="card-img-top" src="'.$latest[$i]["content"].'" alt="'.$latest[$i]["title"].'">
 			    <div class="card-body">
-			    	<h5 class="card-tag">Categoria</h5>
+			    	<h5 class="card-tag">'.$latest[$i]["category"].'</h5>
 			      	<a href="'.$latest[$i]["link"].'"><h4 class="card-title">'.$latest[$i]["title"].'</h4></a>
 			      	<p class="card-text">'.$latest[$i]["resumo"].'</p>
 			    </div>
@@ -39,7 +39,7 @@ $limit = (isset($_POST['limit'])) ? $_POST['limit'] : 6 ;
 			<article class="card">
 			    <img class="card-img-top" src="'.$latest[$i]["content"].'" alt="'.$latest[$i]["title"].'">
 			    <div class="card-body">
-			    	<h5 class="card-tag">Categoria</h5>
+			    	<h5 class="card-tag">'.$latest[$i]["category"].'</h5>
 			      	<a href="'.$latest[$i]["link"].'"><h4 class="card-title">'.$latest[$i]["title"].'</h4></a>
 			      	<p class="card-text">'.$latest[$i]["resumo"].'</p> 
 			    </div>
@@ -59,7 +59,7 @@ $limit = (isset($_POST['limit'])) ? $_POST['limit'] : 6 ;
 			<article class="card">
 			    <img class="card-img-top" src="'.$latest[$i]["content"].'" alt="'.$latest[$i]["title"].'">
 			    <div class="card-body">
-			    	<h5 class="card-tag">Categoria</h5>
+			    	<h5 class="card-tag">'.$latest[$i]["category"].'</h5>
 			      	<a href="'.$latest[$i]["link"].'"><h4 class="card-title">'.$latest[$i]["title"].'</h4></a>
 			      	<p class="card-text">'.$latest[$i]["resumo"].'</p>
 			    </div>

@@ -5,7 +5,7 @@
 class LoadCategory extends Dbconn {
 
 
-	public function list($inicio){
+	public function lista($inicio){
 
 		$delete1 = '<a onclick="delete_category(';
 		$delete2 = ')"><i class="fa fa-times" aria-hidden="true"></i></a>';

@@ -66,7 +66,7 @@ function load_not_found(){
 
 	$title = 'Página Não Encontrada | Logus Tech';
 	require( ASSETSPATH . '/includes/contents/head.php');
-	require( ASSETSPATH . '/includes/contents/navbar.php');
+	require( ASSETSPATH . '/includes/contents/header_blog.php');
 	require( ASSETSPATH . '/includes/contents/404.php');
 	require( ASSETSPATH . '/includes/contents/footer.php');
 }

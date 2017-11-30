@@ -173,7 +173,9 @@ class InsertValues extends Dbconn {
 		try{
 			
 			$db   = new DbConn;
-			$stmt = $db->conn->prepare('call download ("'.$ebook.'")');
+			$tbl  = $db->tbl8;
+			$stmt = $db->conn->prepare('UPDATE '.$tbl.' SET ebook_total = ebook_total + 1 WHERE ebook_link = :ebook');
+			$stmt->bindParam(':ebook',$ebook);			
 			$stmt->execute();
 
 		} catch (PDOException $e) {

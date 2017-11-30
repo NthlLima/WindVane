@@ -43,14 +43,16 @@ class LoadPost extends Dbconn {
 			
 			$db   = new DbConn;
 			$tbl  = $db->tbl4;
-			$stmt = $db->conn->prepare("SELECT post_title as 'title',
-											   post_date  as 'data',
-											   post_content as 'content',
-											   post_category as 'category',
-											   post_link as 'link'
-											   FROM ".$tbl." 
+			$tbl2 = $db->tbl3;
+			$stmt = $db->conn->prepare("SELECT p.post_title as 'title',
+											   p.post_date  as 'data',
+											   p.post_content as 'content',
+											   c.categ_name as 'category',
+											   p.post_link as 'link'
+											   FROM ".$tbl." as p
+											   INNER JOIN ".$tbl2." as c ON c.categ_id = p.post_category
 											   WHERE post_status = 1
-											   ORDER BY post_id DESC , post_date DESC
+											   ORDER BY p.post_id DESC , p.post_date DESC
 											   LIMIT ".$start.", ".$limit);
 			$stmt->execute();
 			$err = '';
@@ -213,7 +215,7 @@ class LoadPost extends Dbconn {
 
 	}
 
-	public function list($inicio){
+	public function lista($inicio){
 
 		$link1 = '<a href="/';
 		$link2 = '" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>';

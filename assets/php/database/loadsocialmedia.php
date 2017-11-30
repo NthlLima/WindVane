@@ -5,7 +5,7 @@
 class LoadSocialMedia extends Dbconn {
 
 
-	public function list($inicio){
+	public function lista($inicio){
 
 		$config1 = '<a onclick="edit_social_media(';
 		$config2 = ')"><i class="fa fa-cog" aria-hidden="true"></i></a>';	

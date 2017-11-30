@@ -21,7 +21,7 @@ function login($email, $password){
 function list_post($inicio){
 
 	$load  = new LoadPost;
-	$posts = $load->list($inicio);
+	$posts = $load->lista($inicio);
 	
 	return $posts;
 
@@ -41,7 +41,7 @@ function list_category($inicio){
 	if ($inicio == -1) {
 		$cats  = $load->all();
 	} else{
-		$cats  = $load->list($inicio);	
+		$cats  = $load->lista($inicio);	
 	}
 
 	return $cats;
@@ -51,7 +51,7 @@ function list_category($inicio){
 function list_ebook($inicio){
 	
 	$load  = new LoadEbooks;
-	$ebook = $load->list($inicio);
+	$ebook = $load->lista($inicio);
 	
 	return $ebook;
 }
@@ -59,7 +59,7 @@ function list_ebook($inicio){
 function list_social_media($inicio){
 	
 	$load  = new LoadSocialMedia;
-	$ebook = $load->list($inicio);
+	$ebook = $load->lista($inicio);
 	
 	return $ebook;
 }
@@ -88,7 +88,7 @@ function list_category_total(){
 function list_users($inicio){
 	
 	$load  = new LoadUser;
-	$posts = $load->list($inicio);
+	$posts = $load->lista($inicio);
 	
 	return $posts;
 }
