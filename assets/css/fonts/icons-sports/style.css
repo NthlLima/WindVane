@@ -1,0 +1,626 @@
+@font-face {
+  font-family: 'icons-sports';
+  src:  url('icons-sports.eot?iqu31b');
+  src:  url('icons-sports.eot?iqu31b#iefix') format('embedded-opentype'),
+    url('icons-sports.ttf?iqu31b') format('truetype'),
+    url('icons-sports.woff?iqu31b') format('woff'),
+    url('icons-sports.svg?iqu31b#icons-sports') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons-sports' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-american-football-1-o:before {
+  content: "\e900";
+}
+.icon-american-football-o:before {
+  content: "\e901";
+}
+.icon-archery-o:before {
+  content: "\e902";
+}
+.icon-badminton-o:before {
+  content: "\e903";
+}
+.icon-ballet-o:before {
+  content: "\e904";
+}
+.icon-baseball-1-o:before {
+  content: "\e905";
+}
+.icon-baseball-2-o:before {
+  content: "\e906";
+}
+.icon-baseball-o:before {
+  content: "\e907";
+}
+.icon-basketball-1-o:before {
+  content: "\e908";
+}
+.icon-basketball-court-o:before {
+  content: "\e909";
+}
+.icon-basketball-jersey-o:before {
+  content: "\e90a";
+}
+.icon-basketball-o:before {
+  content: "\e90b";
+}
+.icon-bicycle-o:before {
+  content: "\e90c";
+}
+.icon-boot-1-o:before {
+  content: "\e90d";
+}
+.icon-boot-o:before {
+  content: "\e90e";
+}
+.icon-bottle-o:before {
+  content: "\e90f";
+}
+.icon-bowling-1-o:before {
+  content: "\e910";
+}
+.icon-bowling-o:before {
+  content: "\e911";
+}
+.icon-boxing-1-o:before {
+  content: "\e912";
+}
+.icon-boxing-o:before {
+  content: "\e913";
+}
+.icon-boxing-ring-1-o:before {
+  content: "\e914";
+}
+.icon-boxing-ring-o:before {
+  content: "\e915";
+}
+.icon-boxing-shorts-o:before {
+  content: "\e916";
+}
+.icon-chess-o:before {
+  content: "\e917";
+}
+.icon-cricket-o:before {
+  content: "\e918";
+}
+.icon-cup-o:before {
+  content: "\e919";
+}
+.icon-curling-o:before {
+  content: "\e91a";
+}
+.icon-cycling-o:before {
+  content: "\e91b";
+}
+.icon-darts-o:before {
+  content: "\e91c";
+}
+.icon-dumbbell-o:before {
+  content: "\e91d";
+}
+.icon-eight-ball-o:before {
+  content: "\e91e";
+}
+.icon-fishing-o:before {
+  content: "\e91f";
+}
+.icon-football-field-o:before {
+  content: "\e920";
+}
+.icon-football-jersey-o:before {
+  content: "\e921";
+}
+.icon-football-pitch-o:before {
+  content: "\e922";
+}
+.icon-glove-o:before {
+  content: "\e923";
+}
+.icon-goggles-o:before {
+  content: "\e924";
+}
+.icon-golf-1-o:before {
+  content: "\e925";
+}
+.icon-golf-o:before {
+  content: "\e926";
+}
+.icon-hiking-o:before {
+  content: "\e927";
+}
+.icon-hockey-1-o:before {
+  content: "\e928";
+}
+.icon-hockey-o:before {
+  content: "\e929";
+}
+.icon-hockey-pitch-o:before {
+  content: "\e92a";
+}
+.icon-ice-skating-o:before {
+  content: "\e92b";
+}
+.icon-jumping-rope-o:before {
+  content: "\e92c";
+}
+.icon-karate-o:before {
+  content: "\e92d";
+}
+.icon-kayak-o:before {
+  content: "\e92e";
+}
+.icon-lacrosse-o:before {
+  content: "\e92f";
+}
+.icon-locker-o:before {
+  content: "\e930";
+}
+.icon-measuring-tape-o:before {
+  content: "\e931";
+}
+.icon-medal-o:before {
+  content: "\e932";
+}
+.icon-muscle-o:before {
+  content: "\e933";
+}
+.icon-olympic-games-o:before {
+  content: "\e934";
+}
+.icon-ping-pong-1-o:before {
+  content: "\e935";
+}
+.icon-ping-pong-o:before {
+  content: "\e936";
+}
+.icon-podium-o:before {
+  content: "\e937";
+}
+.icon-pool-o:before {
+  content: "\e938";
+}
+.icon-punch-1-o:before {
+  content: "\e939";
+}
+.icon-punch-o:before {
+  content: "\e93a";
+}
+.icon-racing-helmet-1-o:before {
+  content: "\e93b";
+}
+.icon-racing-helmet-o:before {
+  content: "\e93c";
+}
+.icon-racing-o:before {
+  content: "\e93d";
+}
+.icon-referee-o:before {
+  content: "\e93e";
+}
+.icon-roller-skate-o:before {
+  content: "\e93f";
+}
+.icon-rowing-o:before {
+  content: "\e940";
+}
+.icon-rugby-o:before {
+  content: "\e941";
+}
+.icon-scoreboard-o:before {
+  content: "\e942";
+}
+.icon-shoe-1-o:before {
+  content: "\e943";
+}
+.icon-shoe-o:before {
+  content: "\e944";
+}
+.icon-shorts-o:before {
+  content: "\e945";
+}
+.icon-skateboard-o:before {
+  content: "\e946";
+}
+.icon-soccer-1-o:before {
+  content: "\e947";
+}
+.icon-soccer-jersey-o:before {
+  content: "\e948";
+}
+.icon-soccer-o:before {
+  content: "\e949";
+}
+.icon-stationary-bike-o:before {
+  content: "\e94a";
+}
+.icon-steering-wheel-o:before {
+  content: "\e94b";
+}
+.icon-stopwatch-1-o:before {
+  content: "\e94c";
+}
+.icon-stopwatch-o:before {
+  content: "\e94d";
+}
+.icon-strength-o:before {
+  content: "\e94e";
+}
+.icon-surf-1-o:before {
+  content: "\e94f";
+}
+.icon-surf-o:before {
+  content: "\e950";
+}
+.icon-tactics-o:before {
+  content: "\e951";
+}
+.icon-target-o:before {
+  content: "\e952";
+}
+.icon-tennis-ball-o:before {
+  content: "\e953";
+}
+.icon-tennis-court-o:before {
+  content: "\e954";
+}
+.icon-tennis-o:before {
+  content: "\e955";
+}
+.icon-torch-o:before {
+  content: "\e956";
+}
+.icon-trampoline-o:before {
+  content: "\e957";
+}
+.icon-treadmill-o:before {
+  content: "\e958";
+}
+.icon-volleyball-o:before {
+  content: "\e959";
+}
+.icon-waterpolo-o:before {
+  content: "\e95a";
+}
+.icon-weight-1-o:before {
+  content: "\e95b";
+}
+.icon-weight-2-o:before {
+  content: "\e95c";
+}
+.icon-weight-3-o:before {
+  content: "\e95d";
+}
+.icon-weight-o:before {
+  content: "\e95e";
+}
+.icon-whistle-o:before {
+  content: "\e95f";
+}
+.icon-world-cup-o:before {
+  content: "\e960";
+}
+.icon-yachting-o:before {
+  content: "\e961";
+}
+.icon-yoga-ball-o:before {
+  content: "\e962";
+}
+.icon-yoga-o:before {
+  content: "\e963";
+}
+.icon-american-football:before {
+  content: "\e964";
+}
+.icon-american-football-1:before {
+  content: "\e965";
+}
+.icon-archery:before {
+  content: "\e966";
+}
+.icon-badminton:before {
+  content: "\e967";
+}
+.icon-ballet:before {
+  content: "\e968";
+}
+.icon-baseball:before {
+  content: "\e969";
+}
+.icon-baseball-1:before {
+  content: "\e96a";
+}
+.icon-baseball-2:before {
+  content: "\e96b";
+}
+.icon-basketball:before {
+  content: "\e96c";
+}
+.icon-basketball-1:before {
+  content: "\e96d";
+}
+.icon-basketball-court:before {
+  content: "\e96e";
+}
+.icon-basketball-jersey:before {
+  content: "\e96f";
+}
+.icon-bicycle:before {
+  content: "\e970";
+}
+.icon-boot:before {
+  content: "\e971";
+}
+.icon-boot-1:before {
+  content: "\e972";
+}
+.icon-bottle:before {
+  content: "\e973";
+}
+.icon-bowling:before {
+  content: "\e974";
+}
+.icon-bowling-1:before {
+  content: "\e975";
+}
+.icon-boxing:before {
+  content: "\e976";
+}
+.icon-boxing-1:before {
+  content: "\e977";
+}
+.icon-boxing-ring:before {
+  content: "\e978";
+}
+.icon-boxing-ring-1:before {
+  content: "\e979";
+}
+.icon-boxing-shorts:before {
+  content: "\e97a";
+}
+.icon-chess:before {
+  content: "\e97b";
+}
+.icon-cricket:before {
+  content: "\e97c";
+}
+.icon-cup:before {
+  content: "\e97d";
+}
+.icon-curling:before {
+  content: "\e97e";
+}
+.icon-cycling:before {
+  content: "\e97f";
+}
+.icon-darts:before {
+  content: "\e980";
+}
+.icon-dumbbell:before {
+  content: "\e981";
+}
+.icon-eight-ball:before {
+  content: "\e982";
+}
+.icon-fishing:before {
+  content: "\e983";
+}
+.icon-football-field:before {
+  content: "\e984";
+}
+.icon-football-jersey:before {
+  content: "\e985";
+}
+.icon-football-pitch:before {
+  content: "\e986";
+}
+.icon-glove:before {
+  content: "\e987";
+}
+.icon-goggles:before {
+  content: "\e988";
+}
+.icon-golf:before {
+  content: "\e989";
+}
+.icon-golf-1:before {
+  content: "\e98a";
+}
+.icon-hiking:before {
+  content: "\e98b";
+}
+.icon-hockey:before {
+  content: "\e98c";
+}
+.icon-hockey-1:before {
+  content: "\e98d";
+}
+.icon-hockey-pitch:before {
+  content: "\e98e";
+}
+.icon-ice-skating:before {
+  content: "\e98f";
+}
+.icon-jumping-rope:before {
+  content: "\e990";
+}
+.icon-karate:before {
+  content: "\e991";
+}
+.icon-kayak:before {
+  content: "\e992";
+}
+.icon-lacrosse:before {
+  content: "\e993";
+}
+.icon-locker:before {
+  content: "\e994";
+}
+.icon-measuring-tape:before {
+  content: "\e995";
+}
+.icon-medal:before {
+  content: "\e996";
+}
+.icon-muscle:before {
+  content: "\e997";
+}
+.icon-olympic-games:before {
+  content: "\e998";
+}
+.icon-ping-pong:before {
+  content: "\e999";
+}
+.icon-ping-pong-1:before {
+  content: "\e99a";
+}
+.icon-podium:before {
+  content: "\e99b";
+}
+.icon-pool:before {
+  content: "\e99c";
+}
+.icon-punch:before {
+  content: "\e99d";
+}
+.icon-punch-1:before {
+  content: "\e99e";
+}
+.icon-racing:before {
+  content: "\e99f";
+}
+.icon-racing-helmet:before {
+  content: "\e9a0";
+}
+.icon-racing-helmet-1:before {
+  content: "\e9a1";
+}
+.icon-referee:before {
+  content: "\e9a2";
+}
+.icon-roller-skate:before {
+  content: "\e9a3";
+}
+.icon-rowing:before {
+  content: "\e9a4";
+}
+.icon-rugby:before {
+  content: "\e9a5";
+}
+.icon-scoreboard:before {
+  content: "\e9a6";
+}
+.icon-shoe:before {
+  content: "\e9a7";
+}
+.icon-shoe-1:before {
+  content: "\e9a8";
+}
+.icon-shorts:before {
+  content: "\e9a9";
+}
+.icon-skateboard:before {
+  content: "\e9aa";
+}
+.icon-soccer:before {
+  content: "\e9ab";
+}
+.icon-soccer-1:before {
+  content: "\e9ac";
+}
+.icon-soccer-jersey:before {
+  content: "\e9ad";
+}
+.icon-stationary-bike:before {
+  content: "\e9ae";
+}
+.icon-steering-wheel:before {
+  content: "\e9af";
+}
+.icon-stopwatch:before {
+  content: "\e9b0";
+}
+.icon-stopwatch-1:before {
+  content: "\e9b1";
+}
+.icon-strength:before {
+  content: "\e9b2";
+}
+.icon-surf:before {
+  content: "\e9b3";
+}
+.icon-surf-1:before {
+  content: "\e9b4";
+}
+.icon-tactics:before {
+  content: "\e9b5";
+}
+.icon-target:before {
+  content: "\e9b6";
+}
+.icon-tennis:before {
+  content: "\e9b7";
+}
+.icon-tennis-ball:before {
+  content: "\e9b8";
+}
+.icon-tennis-court:before {
+  content: "\e9b9";
+}
+.icon-torch:before {
+  content: "\e9ba";
+}
+.icon-trampoline:before {
+  content: "\e9bb";
+}
+.icon-treadmill:before {
+  content: "\e9bc";
+}
+.icon-volleyball:before {
+  content: "\e9bd";
+}
+.icon-waterpolo:before {
+  content: "\e9be";
+}
+.icon-weight:before {
+  content: "\e9bf";
+}
+.icon-weight-1:before {
+  content: "\e9c0";
+}
+.icon-weight-2:before {
+  content: "\e9c1";
+}
+.icon-weight-3:before {
+  content: "\e9c2";
+}
+.icon-whistle:before {
+  content: "\e9c3";
+}
+.icon-world-cup:before {
+  content: "\e9c4";
+}
+.icon-yachting:before {
+  content: "\e9c5";
+}
+.icon-yoga:before {
+  content: "\e9c6";
+}
+.icon-yoga-ball:before {
+  content: "\e9c7";
+}

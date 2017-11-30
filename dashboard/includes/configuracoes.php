@@ -1,0 +1,1 @@
+<script src="assets/js/includes/configuracoes.js"></script>
